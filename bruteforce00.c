@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <unistd.h>
-#include <crypt.h>
+#include <tirpc/rpc/des_crypt.h>
 
 void decrypt(long key, char *ciph, int len){
   //set parity of key and do decrypt
